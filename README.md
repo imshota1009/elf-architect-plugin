@@ -1,48 +1,48 @@
 # ElfArchitect Plugin
 
-Elf Architectは、Minecraftでファンタジーやエルフ風の建築を簡単に作成するためのSpigot/Paperプラグインです。
-「Elder Wand（ニワトコの杖）」と呼ばれる魔法のツールを使用し、直感的な操作で自然と調和した建築を行うことができます。
+Elf Architect is a Spigot/Paper plugin designed to effortlessly create fantasy or elven-style structures in Minecraft.
+Using a magical tool called the "Elder Wand," you can perform intuitive building operations that harmonize with nature.
 
-## 特徴 (Features)
+## Features
 
-### 🪄 Elder Wand (ニワトコの杖)
-専用の杖（金のクワ）を使って、様々な建築魔法を使用できます。
-**Shift + 右クリック** でモードを切り替えることができます。
+### 🪄 Elder Wand
+Use the dedicated wand (Golden Hoe) to cast various building spells.
+**Shift + Right Click** to cycle through modes.
 
-#### モード一覧:
-1.  **SELECTION (範囲選択)**
-    *   左クリック: ポジション1を設定
-    *   右クリック: ポジション2を設定
-    *   基本的な範囲選択モードです。`/set` や `/replace` コマンドと組み合わせて使用します。
+#### Modes:
+1.  **SELECTION**
+    *   **Left Click**: Set Position 1
+    *   **Right Click**: Set Position 2
+    *   The basic range selection mode. Used in combination with `/set` or `/replace` commands.
 
-2.  **LEAF_WEAVER (葉の織り手)**
-    *   右クリック: クリックした場所に、自然な形で垂れ下がる葉っぱ（オーク、白樺、ツツジなど）を生成します。
-    *   エルフの樹上の家や、自然な装飾を作るのに最適です。
+2.  **LEAF_WEAVER**
+    *   **Right Click**: Generates naturally hanging leaves (Oak, Birch, Azalea, etc.) at the clicked location.
+    *   Perfect for creating elven treehouses or natural decorations.
 
-3.  **MOSSIFIER (苔むし化)**
-    *   右クリック: 半径3ブロック以内の石レンガや丸石を、ランダムに苔むしたブロックやひび割れたブロックに変化させます。
-    *   遺跡や古い建物のエイジング加工が一瞬で完了します。
+3.  **MOSSIFIER**
+    *   **Right Click**: Randomly transforms Stone Bricks or Cobblestone within a 3-block radius into mossy or cracked variants.
+    *   Instantly ages ruins or old buildings.
 
-4.  **FAIRY_LIGHT (妖精の灯り)**
-    *   右クリック: 目に見えない光源（ライトブロック）を設置し、光の粒子（パーティクル）を発生させます。
-    *   光源を隠しながら、幻想的な雰囲気を演出できます。
+4.  **FAIRY_LIGHT**
+    *   **Right Click**: Places an invisible light source (Light Block) and spawns magical particles.
+    *   Creates a mystical atmosphere with hidden lighting.
 
-### 🛠 コマンド
-*   `/elfwand`: Elder Wand（ニワトコの杖）を入手します。
-*   `/set <material>`: 選択した範囲を指定したブロックで埋めます。
-*   `/replace <from_material> <to_material>`: 選択した範囲内の特定のブロックを別のブロックに置き換えます。
+### 🛠 Commands
+*   `/elfwand`: Gives you the Elder Wand.
+*   `/set <material>`: Fills the selected region with the specified block.
+*   `/replace <from_material> <to_material>`: Replaces specific blocks within the selected region.
 
-## インストール方法 (How to Install)
+## How to Install
 
-1.  `ElfArchitect-1.0.jar` をサーバーの `plugins` フォルダに配置してください。
-2.  サーバーを再起動またはリロードします。
-3.  `/elfwand` コマンドで杖を取り出し、建築を始めましょう！
+1.  Place `ElfArchitect-1.0.jar` into your server's `plugins` folder.
+2.  Restart or reload the server.
+3.  Use the `/elfwand` command to get your wand and start building!
 
-## 権限 (Permissions)
+## Permissions
 
-*   `elfarchitect.use`: プラグインの全機能を使用するための権限（デフォルトでOPに付与）
+*   `elfarchitect.use`: Permission to use all plugin features (default: OP).
 
-## 開発環境
+## Development Environment
 *   Java: 17+
 *   Minecraft Version: 1.20+
 *   API: Spigot/Paper API
