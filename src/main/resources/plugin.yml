@@ -1,0 +1,18 @@
+name: ElfArchitect
+version: 1.0
+main: org.sylvan.elfarchitect.ElfArchitect
+api-version: 1.20
+commands:
+  elfwand:
+    description: gives you the Elder Wand
+    usage: /elfwand
+  set:
+    description: Sets the selected region to a block type
+    usage: /set <material>
+  replace:
+    description: Replaces blocks in the selected region
+    usage: /replace <from_material> <to_material>
+permissions:
+  elfarchitect.use:
+    description: Allows use of Elf Architect tools
+    default: op
